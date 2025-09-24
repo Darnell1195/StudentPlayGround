@@ -46,11 +46,15 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    testImplementation(libs.junit) // JUnit para pruebas unitarias
-    testImplementation("org.mockito:mockito-core:5.2.0") // Mockito para mocks
-    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3") // Si usas corrutinas
-    testImplementation("org.assertj:assertj-core:3.24.2") // Opcional, para aserciones más potentes
-    
+    // JUnit para pruebas unitarias
+    testImplementation(libs.junit)
+    // Mockito para mocks
+    testImplementation("org.mockito:mockito-core:5.2.0")
+    // Si usas corrutinas
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
+    // Opcional, para aserciones más potentes
+    testImplementation("org.assertj:assertj-core:3.24.2")
+
 
 
 
