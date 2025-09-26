@@ -36,7 +36,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -48,14 +47,12 @@ dependencies {
 
     // JUnit para pruebas unitarias
     testImplementation(libs.junit)
-    // Mockito para mocks
+    // MockK para mocks
     testImplementation("io.mockk:mockk:1.14.5")
-    // Si usas corrutinas
+    // Mockito para mocks (puedes usar ambos si lo necesitas)
+    testImplementation("org.mockito:mockito-core:5.2.0")
+    // Corrutinas (versión más reciente)
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.10.2")
-    // Opcional, para aserciones más potentes
+    // AssertJ (versión más reciente)
     testImplementation("org.assertj:assertj-core:3.27.6")
-
-
-
-
 }
