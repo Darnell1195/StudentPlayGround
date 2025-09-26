@@ -49,11 +49,11 @@ dependencies {
     // JUnit para pruebas unitarias
     testImplementation(libs.junit)
     // Mockito para mocks
-    testImplementation("io.mockk:mockk:1.13.10")
+    testImplementation("io.mockk:mockk:1.14.5")
     // Si usas corrutinas
-    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.10.2")
     // Opcional, para aserciones más potentes
-    testImplementation("org.assertj:assertj-core:3.24.2")
+    testImplementation("org.assertj:assertj-core:3.27.6")
 
 
 
